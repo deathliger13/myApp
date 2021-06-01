@@ -17,6 +17,7 @@ final class CustomController
      */
     public function getNumbers(): Response
     {
+        //test
         $numbers = [];
         for ($i = 0; $i < 10; $i++) {
             $numbers[] = random_int(0, 100);
